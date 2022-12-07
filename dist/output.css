@@ -5396,6 +5396,46 @@ textarea.form-control.is-invalid {
   width: 47%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[2\] {
+  width: 2;
+}
+
+.w-\[24\] {
+  width: 24;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[26\%\] {
+  width: 26%;
+}
+
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[15\%\] {
+  width: 15%;
+}
+
+.w-\[18\%\] {
+  width: 18%;
+}
+
+.w-\[19\%\] {
+  width: 19%;
+}
+
+.w-\[full\] {
+  width: full;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -6536,6 +6576,56 @@ textarea.form-control.is-invalid {
   padding-right: 0.25rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
+.py-11 {
+  padding-top: 2.75rem;
+  padding-bottom: 2.75rem;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.py-\[50px\] {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-\[45px\] {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -6606,6 +6696,10 @@ textarea.form-control.is-invalid {
 
 .pb-5 {
   padding-bottom: 1.25rem;
+}
+
+.pb-1 {
+  padding-bottom: 0.25rem;
 }
 
 .text-left {
