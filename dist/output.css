@@ -2130,6 +2130,12 @@ textarea.form-control.is-invalid {
   touch-action: pan-y;
 }
 
+.carousel-inner::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
 .carousel-item {
   display: none;
   margin-right: -100%;
@@ -5134,6 +5140,22 @@ textarea.form-control.is-invalid {
   left: -0.25rem;
 }
 
+.right-0 {
+  right: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -5170,20 +5192,12 @@ textarea.form-control.is-invalid {
   clear: none;
 }
 
-.m-auto {
-  margin: auto;
-}
-
 .m-4 {
   margin: 1rem;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
-.m-6 {
-  margin: 1.5rem;
+.m-auto {
+  margin: auto;
 }
 
 .m-2 {
@@ -5210,14 +5224,12 @@ textarea.form-control.is-invalid {
   margin-right: 24rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+.mr-8 {
+  margin-right: 2rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .ml-6 {
@@ -5228,16 +5240,8 @@ textarea.form-control.is-invalid {
   margin-top: 0.5rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
-.mr-8 {
-  margin-right: 2rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .box-border {
@@ -5384,12 +5388,20 @@ textarea.form-control.is-invalid {
   width: ;
 }
 
-.w-\[70\] {
-  width: 70;
+.w-\[20\] {
+  width: 20;
 }
 
-.w-\[80\%\] {
-  width: 80%;
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
 }
 
 .flex-shrink {
@@ -6161,16 +6173,12 @@ textarea.form-control.is-invalid {
   word-break: keep-all;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
-}
-
 .rounded-\[50px\] {
   border-radius: 50px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-t {
@@ -6217,6 +6225,10 @@ textarea.form-control.is-invalid {
   border-width: 1px;
 }
 
+.border-0 {
+  border-width: 0px;
+}
+
 .border-x {
   border-left-width: 1px;
   border-right-width: 1px;
@@ -6225,6 +6237,10 @@ textarea.form-control.is-invalid {
 .border-y {
   border-top-width: 1px;
   border-bottom-width: 1px;
+}
+
+.border-b-\[4px\] {
+  border-bottom-width: 4px;
 }
 
 .border-t {
@@ -6243,20 +6259,8 @@ textarea.form-control.is-invalid {
   border-left-width: 1px;
 }
 
-.border-b-2 {
-  border-bottom-width: 2px;
-}
-
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
 .border-b-\[3px\] {
   border-bottom-width: 3px;
-}
-
-.border-b-\[4px\] {
-  border-bottom-width: 4px;
 }
 
 .border-solid {
@@ -6288,27 +6292,14 @@ textarea.form-control.is-invalid {
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
-.border-b-gray-200 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(229 231 235 / var(--tw-border-opacity));
-}
-
-.border-b-gray-400 {
-  --tw-border-opacity: 1;
-  border-bottom-color: rgb(156 163 175 / var(--tw-border-opacity));
-}
-
-.border-b-\[\] {
-  border-bottom-color: ;
-}
-
-.border-b-\[3\] {
-  border-bottom-color: 3;
-}
-
 .bg-\[\#F5F5F7\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 245 247 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#000000\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-red-900 {
@@ -6339,24 +6330,6 @@ textarea.form-control.is-invalid {
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#0071E3\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 113 227 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#000000\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\.\.\'\)\] {
@@ -6493,8 +6466,8 @@ textarea.form-control.is-invalid {
      object-fit: scale-down;
 }
 
-.p-14 {
-  padding: 3.5rem;
+.p-0 {
+  padding: 0px;
 }
 
 .py-10 {
@@ -6502,9 +6475,19 @@ textarea.form-control.is-invalid {
   padding-bottom: 2.5rem;
 }
 
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .px-4 {
@@ -6512,14 +6495,19 @@ textarea.form-control.is-invalid {
   padding-right: 1rem;
 }
 
-.py-36 {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
 }
 
 .py-4 {
@@ -6542,11 +6530,6 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.625rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
 .px-1\.5 {
   padding-left: 0.375rem;
   padding-right: 0.375rem;
@@ -6557,23 +6540,24 @@ textarea.form-control.is-invalid {
   padding-right: 0.25rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pb-4 {
+  padding-bottom: 1rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-16 {
   padding-bottom: 4rem;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
+.pb-\[4px\] {
+  padding-bottom: 4px;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
+.pb-\[1\.5px\] {
+  padding-bottom: 1.5px;
 }
 
 .pr-24 {
@@ -6616,56 +6600,24 @@ textarea.form-control.is-invalid {
   padding-bottom: 1.25rem;
 }
 
-.pt-14 {
-  padding-top: 3.5rem;
+.pt-\[\] {
+  padding-top: ;
 }
 
-.pt-20 {
-  padding-top: 5rem;
+.pt-\[5px\] {
+  padding-top: 5px;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.pt-\[20px\] {
+  padding-top: 20px;
 }
 
-.pb-16 {
-  padding-bottom: 4rem;
+.pt-\[30px\] {
+  padding-top: 30px;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
-.pb-\[\] {
-  padding-bottom: ;
-}
-
-.pb-\[2\] {
-  padding-bottom: 2;
-}
-
-.pb-\[2px\] {
-  padding-bottom: 2px;
-}
-
-.pb-\[3px\] {
-  padding-bottom: 3px;
-}
-
-.pb-\[4px\] {
-  padding-bottom: 4px;
-}
-
-.pb-\[1px\] {
-  padding-bottom: 1px;
-}
-
-.pb-\[1\.5px\] {
-  padding-bottom: 1.5px;
+.pt-\[25px\] {
+  padding-top: 25px;
 }
 
 .text-left {
@@ -6741,6 +6693,18 @@ textarea.form-control.is-invalid {
   line-height: 1rem;
 }
 
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[51px\] {
+  font-size: 51px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -6771,19 +6735,19 @@ textarea.form-control.is-invalid {
   line-height: 1.75rem;
 }
 
-.text-\[51px\] {
-  font-size: 51px;
+.text-\[22px\] {
+  font-size: 22px;
 }
 
-.text-\[17px\] {
-  font-size: 17px;
-}
-
-.text-\[25px\] {
-  font-size: 25px;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
+  font-weight: 700;
+}
+
+.font-\[700\] {
   font-weight: 700;
 }
 
@@ -6793,14 +6757,6 @@ textarea.form-control.is-invalid {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-\[800\] {
-  font-weight: 800;
-}
-
-.font-\[700\] {
-  font-weight: 700;
 }
 
 .uppercase {
@@ -6890,6 +6846,21 @@ textarea.form-control.is-invalid {
   color: rgb(0 102 204 / var(--tw-text-opacity));
 }
 
+.text-\[\#F56300\] {
+  --tw-text-opacity: 1;
+  color: rgb(245 99 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#0071E3\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 113 227 / var(--tw-text-opacity));
+}
+
+.text-\[\#FFFFFF\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-red-300 {
   --tw-text-opacity: 1;
   color: rgb(252 165 165 / var(--tw-text-opacity));
@@ -6923,23 +6894,13 @@ textarea.form-control.is-invalid {
   color: ;
 }
 
-.text-\[\#F56300\] {
-  --tw-text-opacity: 1;
-  color: rgb(245 99 0 / var(--tw-text-opacity));
+.text-\[22\] {
+  color: 22;
 }
 
-.text-\[FFFFFF\] {
-  color: FFFFFF;
-}
-
-.text-\[\#FFFFFF\] {
+.text-\[\#1D1D1F\] {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#0071E3\] {
-  --tw-text-opacity: 1;
-  color: rgb(0 113 227 / var(--tw-text-opacity));
+  color: rgb(29 29 31 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -7291,24 +7252,8 @@ textarea.form-control.is-invalid {
   content: "hello";
 }
 
-.hover\:m-4:hover {
-  margin: 1rem;
-}
-
-.hover\:border:hover {
-  border-width: 1px;
-}
-
 .hover\:border-b-2:hover {
   border-bottom-width: 2px;
-}
-
-.hover\:border-b:hover {
-  border-bottom-width: 1px;
-}
-
-.hover\:border-b-\[4px\]:hover {
-  border-bottom-width: 4px;
 }
 
 .hover\:border-b-\[3px\]:hover {
@@ -7325,8 +7270,9 @@ textarea.form-control.is-invalid {
   border-color: rgb(107 114 128 / var(--tw-border-opacity));
 }
 
-.hover\:border-b-\[\]:hover {
-  border-bottom-color: ;
+.hover\:bg-\[\#0071E3\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 113 227 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-700:hover {
@@ -7339,23 +7285,18 @@ textarea.form-control.is-invalid {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#0071E3\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 113 227 / var(--tw-bg-opacity));
-}
-
-.hover\:py-2:hover {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.hover\:px-4:hover {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:text-\[\#FFFFFF\]:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-600:hover {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -7368,25 +7309,19 @@ textarea.form-control.is-invalid {
   color: rgb(29 78 216 / var(--tw-text-opacity));
 }
 
-.hover\:text-\[\#FFFFFF\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+.hover\:no-underline:hover {
+  text-decoration-line: none;
 }
 
 .hover\:shadow-lg:hover {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:outline-none:hover {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 .before\:hover\:text-center:hover::before {
@@ -7402,6 +7337,10 @@ textarea.form-control.is-invalid {
 .focus\:bg-blue-700:focus {
   --tw-bg-opacity: 1;
   background-color: rgb(29 78 216 / var(--tw-bg-opacity));
+}
+
+.focus\:no-underline:focus {
+  text-decoration-line: none;
 }
 
 .focus\:shadow-lg:focus {
@@ -7445,6 +7384,12 @@ textarea.form-control.is-invalid {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
       paint-order: markers;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .md\:block {
+    display: block;
   }
 }
 
