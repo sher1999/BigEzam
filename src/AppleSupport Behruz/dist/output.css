@@ -3980,18 +3980,6 @@ textarea.form-control.is-invalid {
     width: 95%;
   }
 
-  .xs\:w-\[\] {
-    width: ;
-  }
-
-  .xs\:w-\[9\] {
-    width: 9;
-  }
-
-  .xs\:w-\[90\] {
-    width: 90;
-  }
-
   .xs\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -4097,10 +4085,6 @@ textarea.form-control.is-invalid {
     font-size: 28px;
   }
 
-  .xs\:text-\[20px\] {
-    font-size: 20px;
-  }
-
   .xs\:text-\[24px\] {
     font-size: 24px;
   }
@@ -4122,17 +4106,5 @@ textarea.form-control.is-invalid {
   .xs\:text-black {
     --tw-text-opacity: 1;
     color: rgb(0 0 0 / var(--tw-text-opacity));
-  }
-
-  .xs\:text-\[\] {
-    color: ;
-  }
-
-  .xs\:text-\[2\] {
-    color: 2;
-  }
-
-  .xs\:text-\[28\] {
-    color: 28;
   }
 }
