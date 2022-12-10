@@ -6187,6 +6187,10 @@ textarea.form-control.is-invalid {
   width: 95%;
 }
 
+.w-\[0\%\] {
+  width: 0%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
