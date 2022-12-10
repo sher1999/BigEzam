@@ -3458,20 +3458,51 @@ textarea.form-control.is-invalid {
   margin: auto;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.m-\[30px\] {
+  margin: 30px;
+}
+
+.m-\[90px\] {
+  margin: 90px;
+}
+
+.my-\[10px\] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.my-\[5px\] {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.my-\[15px\] {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .mt-\[10px\] {
   margin-top: 10px;
 }
 
-.ml-\[-250px\] {
-  margin-left: -250px;
+.mb-\[10px\] {
+  margin-bottom: 10px;
+}
+
+.ml-\[100px\] {
+  margin-left: 100px;
+}
+
+.ml-\[-260px\] {
+  margin-left: -260px;
 }
 
 .mt-\[250px\] {
   margin-top: 250px;
-}
-
-.mb-\[10px\] {
-  margin-bottom: 10px;
 }
 
 .ml-\[450px\] {
@@ -3502,6 +3533,46 @@ textarea.form-control.is-invalid {
   margin-bottom: 25px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-\[20px\] {
+  margin-bottom: 20px;
+}
+
+.mt-\[195px\] {
+  margin-top: 195px;
+}
+
+.mt-\[224px\] {
+  margin-top: 224px;
+}
+
+.mt-\[210px\] {
+  margin-top: 210px;
+}
+
 .block {
   display: block;
 }
@@ -3522,6 +3593,10 @@ textarea.form-control.is-invalid {
   display: none;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .h-full {
   height: 100%;
 }
@@ -3538,6 +3613,10 @@ textarea.form-control.is-invalid {
   width: 70%;
 }
 
+.w-\[50\%\] {
+  width: 50%;
+}
+
 .w-\[60\%\] {
   width: 60%;
 }
@@ -3550,16 +3629,36 @@ textarea.form-control.is-invalid {
   width: 49%;
 }
 
-.w-\[50\%\] {
-  width: 50%;
-}
-
 .w-\[55\%\] {
   width: 55%;
 }
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[89\%\] {
+  width: 89%;
+}
+
+.w-\[35\%\] {
+  width: 35%;
+}
+
+.w-\[85\%\] {
+  width: 85%;
+}
+
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[550px\] {
+  width: 550px;
+}
+
+.w-\[50\.9\%\] {
+  width: 50.9%;
 }
 
 .w-full {
@@ -3606,8 +3705,8 @@ textarea.form-control.is-invalid {
   justify-content: space-evenly;
 }
 
-.gap-\[30px\] {
-  gap: 30px;
+.gap-\[80px\] {
+  gap: 80px;
 }
 
 .gap-\[40px\] {
@@ -3616,6 +3715,14 @@ textarea.form-control.is-invalid {
 
 .gap-\[50px\] {
   gap: 50px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-3xl {
@@ -3642,6 +3749,11 @@ textarea.form-control.is-invalid {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-sky-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
@@ -3652,9 +3764,18 @@ textarea.form-control.is-invalid {
   background-color: rgb(2 1 43 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-\[\#444861\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(68 72 97 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#FA3455\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 52 85 / var(--tw-bg-opacity));
+}
+
+.bg-\[length\:100\%_100\%\] {
+  background-size: 100% 100%;
 }
 
 .py-\[10px\] {
@@ -3670,6 +3791,16 @@ textarea.form-control.is-invalid {
 .py-\[120px\] {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.py-\[4px\] {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .py-\[30px\] {
@@ -3721,6 +3852,38 @@ textarea.form-control.is-invalid {
   padding-bottom: 120px;
 }
 
+.pt-\[50px\] {
+  padding-top: 50px;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
+.pt-\[40px\] {
+  padding-top: 40px;
+}
+
+.pb-\[60px\] {
+  padding-bottom: 60px;
+}
+
+.pt-\[70px\] {
+  padding-top: 70px;
+}
+
+.pt-\[120px\] {
+  padding-top: 120px;
+}
+
+.pt-\[130px\] {
+  padding-top: 130px;
+}
+
+.pl-\[20px\] {
+  padding-left: 20px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -3737,24 +3900,24 @@ textarea.form-control.is-invalid {
   font-size: 10px;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
+.text-\[22px\] {
+  font-size: 22px;
 }
 
 .text-\[52px\] {
   font-size: 52px;
 }
 
-.text-\[50px\] {
-  font-size: 50px;
+.text-\[70px\] {
+  font-size: 70px;
 }
 
-.text-\[22px\] {
-  font-size: 22px;
+.text-\[28px\] {
+  font-size: 28px;
 }
 
-.text-\[17px\] {
-  font-size: 17px;
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .text-\[68px\] {
@@ -3785,8 +3948,40 @@ textarea.form-control.is-invalid {
   font-size: 21px;
 }
 
+.text-\[50px\] {
+  font-size: 50px;
+}
+
 .text-\[42px\] {
   font-size: 42px;
+}
+
+.text-\[64px\] {
+  font-size: 64px;
+}
+
+.text-\[31px\] {
+  font-size: 31px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
+.text-\[54px\] {
+  font-size: 54px;
+}
+
+.text-\[26px\] {
+  font-size: 26px;
+}
+
+.text-\[25px\] {
+  font-size: 25px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
 }
 
 .font-\[700\] {
@@ -3811,6 +4006,11 @@ textarea.form-control.is-invalid {
   color: rgb(245 99 0 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-\[\#FFFFFF\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -3821,9 +4021,9 @@ textarea.form-control.is-invalid {
   color: rgb(41 151 255 / var(--tw-text-opacity));
 }
 
-.text-white {
+.text-\[\#000\] {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-\[white\] {
@@ -3846,6 +4046,11 @@ textarea.form-control.is-invalid {
   color: rgb(245 245 247 / var(--tw-text-opacity));
 }
 
+.text-cyan-500 {
+  --tw-text-opacity: 1;
+  color: rgb(6 182 212 / var(--tw-text-opacity));
+}
+
 .outline {
   outline-style: solid;
 }
@@ -3857,6 +4062,11 @@ textarea.form-control.is-invalid {
 
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:bg-gray-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-slate-600:hover {
